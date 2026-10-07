@@ -81,4 +81,4 @@ If (return_date is null,
 GREATEST(DATEDIFF(return_date, issue_date) - return_period, 0) * 8.45
     );
 
-select * from readers;
+select * from readers; 
